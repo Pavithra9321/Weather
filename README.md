@@ -11,6 +11,5 @@ This is an Android Weather App that show you how to make HTTP requests using Fas
 # Screenshots
 <p float="left">
 <img src="http://www.mediafire.com/convkey/e8fd/npv8n2twk15vdkdzg.jpg?size_id=b" width="200" height="400" />
-     <img src="http://www.mediafire.com/convkey/e8fd/npv8n2twk15vdkdzg.jpg?size_id=b" width="200" height="400" />
      <img src="http://www.mediafire.com/convkey/00b1/le68u2zrlgc6jm2zg.jpg?size_id=b" width="200" height="400" />   
 </p>
