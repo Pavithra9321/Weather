@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="GravView">
+    <attr name="colorGenerator" format="string" />
+    <attr name="pointGenerator" format="string" />
+    <attr name="gravGenerator" format="string" />
+    <attr name="animationGenerator" format="string" />
+    <attr name="animationGenerators" format="reference" />
+  </declare-styleable>
+
+  <declare-styleable name="SingleColorGenerator">
+    <attr name="single_color" format="color" />
+  </declare-styleable>
+
+  <declare-styleable name="ArrayColorGenerator">
+    <attr name="array_colors" format="reference" />
+  </declare-styleable>
+
+  <declare-styleable name="BallGenerator">
+    <attr name="ball_size" format="dimension" />
+    <attr name="ball_from_size" format="dimension" />
+    <attr name="ball_to_size" format="dimension" />
+  </declare-styleable>
+
+  <declare-styleable name="RectangleGenerator">
+    <attr name="rectangle_width" format="dimension" />
+    <attr name="rectangle_height" format="dimension" />
+  </declare-styleable>
+
+  <declare-styleable name="RegularPointGenerator">
+    <attr name="regular_cell_size" format="integer" />
+    <attr name="regular_variance" format="integer" />
+  </declare-styleable>
+
+  <declare-styleable name="CircularPointGenerator">
+    <attr name="circular_cell_size" format="integer" />
+    <attr name="circular_variance" format="integer" />
+  </declare-styleable>
+
+  <declare-styleable name="ShakeAnimator">
+    <attr name="shake_min_duration" format="integer" />
+    <attr name="shake_max_duration" format="integer" />
+    <attr name="shake_variance" format="dimension" />
+    <attr name="shake_direction" format="enum">
+      <enum name="horizontal" value="0"/>
+      <enum name="vertical" value="1"/>
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="SideToSideAnimator">
+    <attr name="side_to_side_interpolator" format="string" />
+    <attr name="side_to_side_min_duration" format="integer" />
+    <attr name="side_to_side_max_duration" format="integer" />
+    <attr name="side_to_side_direction" format="enum">
+      <enum name="leftToRight" value="0"/>
+      <enum name="rightToLeft" value="1"/>
+      <enum name="upToDown" value="2"/>
+      <enum name="downToUp" value="3"/>
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="BallSizeAnimator">
+    <attr name="ball_size_min_duration" format="integer" />
+    <attr name="ball_size_max_duration" format="integer" />
+    <attr name="ball_size_from_size" format="dimension" />
+    <attr name="ball_size_to_size" format="dimension" />
+  </declare-styleable>
+
+  <declare-styleable name="PercentPointGenerator">
+    <attr name="percent_points_array" format="reference" />
+  </declare-styleable>
+
+  <declare-styleable name="AlphaAnimator">
+    <attr name="alpha_from" format="integer" />
+    <attr name="alpha_to" format="integer" />
+    <attr name="alpha_min_duration" format="integer" />
+    <attr name="alpha_max_duration" format="integer" />
+  </declare-styleable>
+
+  <declare-styleable name="PathAnimator">
+    <attr name="path_variance_from" format="dimension" />
+    <attr name="path_variance_to" format="dimension" />
+    <attr name="path" format="string" />
+    <attr name="path_original_width" format="integer" />
+    <attr name="path_original_height" format="integer" />
+    <attr name="path_min_duration" format="integer" />
+    <attr name="path_max_duration" format="integer" />
+  </declare-styleable>
+  <declare-styleable name="RotateLoading">
+    <attr name="loading_width" format="dimension"/>
+    <attr name="loading_color" format="color"/>
+    <attr name="shadow_position" format="integer"/>
+    <attr name="loading_speed" format="integer"/>
+  </declare-styleable>
+
+  <declare-styleable name="CradleBall">
+    <attr name="cradle_ball_color" format="color" />
+  </declare-styleable>
+
+
+
+  <declare-styleable name="SwipeLayout">
+    <attr name="drag_edge">
+      <flag name="left" value="1" />
+      <flag name="right" value="2" />
+      <flag name="top" value="4" />
+      <flag name="bottom" value="8" />
+    </attr>
+    <attr name="leftEdgeSwipeOffset" format="dimension" />
+    <attr name="rightEdgeSwipeOffset" format="dimension" />
+    <attr name="topEdgeSwipeOffset" format="dimension" />
+    <attr name="bottomEdgeSwipeOffset" format="dimension" />
+    <attr name="show_mode" format="enum">
+      <enum name="lay_down" value="0" />
+      <enum name="pull_out" value="1" />
+    </attr>
+    <attr name="clickToClose" format="boolean" />
+  </declare-styleable>
+
+
+  <declare-styleable name="ExpandableTextView">
+    <attr name="maxCollapsedLines" format="integer"/>
+    <attr name="animDuration" format="integer"/>
+    <attr name="contentTextSize" format="dimension"/>
+    <attr name="contentTextColor" format="color"/>
+    <attr name="contentLineSpacingMultiplier" format="float"/>
+    <attr name="expandDrawable" format="reference"/>
+    <attr name="expandText" format="string"/>
+    <attr name="collapseDrawable" format="reference"/>
+    <attr name="collapseText" format="string"/>
+    <attr name="expandCollapseTextColor" format="color"/>
+    <attr name="DrawableAndTextGravity">
+      <enum name="left" value="0"/>
+      <enum name="center" value="1"/>
+      <enum name="right" value="2"/>
+    </attr>
+  </declare-styleable>
+
+</resources>

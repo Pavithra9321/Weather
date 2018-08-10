@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1007094870189",
+    "firebase_url": "https://ourwedding-7dcf7.firebaseio.com",
+    "project_id": "ourwedding-7dcf7",
+    "storage_bucket": "ourwedding-7dcf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007094870189:android:56ee2d19684e37f7",
+        "android_client_info": {
+          "package_name": "com.weather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007094870189-j37vglq9dit56s11695t0cjrf6dv905r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlWJvSgMPA3qW4kN_xEn1d5YaPt3RHq3A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
